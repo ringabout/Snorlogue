@@ -1,0 +1,11 @@
+CREATE	snorlogue/frontend/urlUtils.html#CREATE	Page.CREATE	
+DELETE	snorlogue/frontend/urlUtils.html#DELETE	Page.DELETE	
+DETAIL	snorlogue/frontend/urlUtils.html#DETAIL	Page.DETAIL	
+LIST	snorlogue/frontend/urlUtils.html#LIST	Page.LIST	
+OVERVIEW	snorlogue/frontend/urlUtils.html#OVERVIEW	Page.OVERVIEW	
+BACKEND	snorlogue/frontend/urlUtils.html#BACKEND	Page.BACKEND	
+SQL	snorlogue/frontend/urlUtils.html#SQL	Page.SQL	
+CONFIG	snorlogue/frontend/urlUtils.html#CONFIG	Page.CONFIG	
+Page	snorlogue/frontend/urlUtils.html#Page	urlUtils: Page	
+generateUrlStub	snorlogue/frontend/urlUtils.html#generateUrlStub,staticstring,Page,string	urlUtils: generateUrlStub(urlPrefix: static string; action: Page; modelName: string): string	
+generateUrlStub	snorlogue/frontend/urlUtils.html#generateUrlStub,staticstring,Page,typedesc[T]	urlUtils: generateUrlStub[T: Model](urlPrefix: static string; action: Page;\n                          model: typedesc[T]): string	

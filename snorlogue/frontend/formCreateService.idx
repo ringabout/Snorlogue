@@ -1,0 +1,14 @@
+toFormField	snorlogue/frontend/formCreateService.html#toFormField,Option[string],string,bool	formCreateService: toFormField(value: Option[string]; fieldName: string; isRequired: bool): FormField	
+toFormField	snorlogue/frontend/formCreateService.html#toFormField,Option[int64],string,bool	formCreateService: toFormField(value: Option[int64]; fieldName: string; isRequired: bool): FormField	
+toFormField	snorlogue/frontend/formCreateService.html#toFormField,Option[int],string,bool	formCreateService: toFormField(value: Option[int]; fieldName: string; isRequired: bool): FormField	
+toFormField	snorlogue/frontend/formCreateService.html#toFormField,Option[int32],string,bool	formCreateService: toFormField(value: Option[int32]; fieldName: string; isRequired: bool): FormField	
+toFormField	snorlogue/frontend/formCreateService.html#toFormField,Option[Natural],string,bool	formCreateService: toFormField(value: Option[Natural]; fieldName: string; isRequired: bool): FormField	
+toFormField	snorlogue/frontend/formCreateService.html#toFormField,Option[float64],string,bool	formCreateService: toFormField(value: Option[float64]; fieldName: string; isRequired: bool): FormField	
+toFormField	snorlogue/frontend/formCreateService.html#toFormField,Option[float32],string,bool	formCreateService: toFormField(value: Option[float32]; fieldName: string; isRequired: bool): FormField	
+toFormField	snorlogue/frontend/formCreateService.html#toFormField,Option[bool],string,bool	formCreateService: toFormField(value: Option[bool]; fieldName: string; isRequired: bool): FormField	
+toFormField	snorlogue/frontend/formCreateService.html#toFormField,Option[DateTime],string,bool	formCreateService: toFormField(value: Option[DateTime]; fieldName: string; isRequired: bool): FormField	
+toFormField	snorlogue/frontend/formCreateService.html#toFormField,Option[FilePath],string,bool	formCreateService: toFormField(value: Option[FilePath]; fieldName: string; isRequired: bool): FormField	
+toFormField	snorlogue/frontend/formCreateService.html#toFormField,T,string,bool	formCreateService: toFormField[T](value: T; fieldName: string; isRequired: bool): FormField	
+toFormField	snorlogue/frontend/formCreateService.html#toFormField,Option[SomeInteger],string,bool,seq[IntOption]	formCreateService: toFormField(value: Option[SomeInteger]; fieldName: string; isRequired: bool;\n            options: seq[IntOption]): FormField	
+toFormField	snorlogue/frontend/formCreateService.html#toFormField,Option[string],string,bool,seq[StringOption]	formCreateService: toFormField(value: Option[string]; fieldName: string; isRequired: bool;\n            options: seq[StringOption]): FormField	
+extractFields	snorlogue/frontend/formCreateService.html#extractFields,T	formCreateService: extractFields[T: Model](model: T): seq[FormField]	
